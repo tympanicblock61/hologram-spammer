@@ -1,25 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "hologram-spammer",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Hologram Spammer",
+  "description": "shadow client hologram spammer port to meteor",
   "authors": [
-    "seasnail"
+    "tympanicblock61"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/tympanicblock61/hologram-spammer"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "com.hologram.spammer.Addon"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
   "custom": {
     "meteor-client:color": "225,25,25"
   },
