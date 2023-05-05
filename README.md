@@ -1,4 +1,4 @@
-# Meteor Addon Template
+# Meteor hologram spammer
 
 hologram spammer from shadow client ported to meteor as a addon
 
